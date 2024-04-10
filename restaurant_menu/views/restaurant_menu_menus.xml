@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <menuitem id="restaurant_menu_menu_root" name="Restaurant Menu">
+        <menuitem
+            id="restaurant_menu_main_menu"
+            name="Menu"
+            sequence="10"
+            action="restaurant_menu_action"
+        />
+        <menuitem
+            id="restaurant_menu_item_main_menu"
+            name="Menu Items"
+            sequence="10"
+            action="restaurant_menu_item_action"
+        />
+    </menuitem>
+</odoo>
