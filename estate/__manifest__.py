@@ -22,6 +22,8 @@
         "views/estate_property_views.xml",
         # MENUS
         "views/estate_menu.xml",
+        # REPORTS
+        "reports/estate_report.xml"
     ],
     "demo": [
         "demo/demo.xml"
